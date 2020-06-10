@@ -18,8 +18,14 @@ end
 
 
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(short_words)
+  short_words.include?
+    if short_words.length > 4
+      return true
+    else
+      return false
+    end
+      
 end
 
 
