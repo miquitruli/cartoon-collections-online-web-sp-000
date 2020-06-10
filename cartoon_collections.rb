@@ -12,7 +12,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |calls|
-    return calls.capitalize<<"!"
+    array_string = calls.split.capitalize<<"!"
   end
 end
 
