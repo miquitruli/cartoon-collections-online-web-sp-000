@@ -11,6 +11,7 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
+  array_string=[]
   planeteer_calls.collect do |calls|
     array_string = calls.capitalize<<"!"
     array_string.split
